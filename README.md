@@ -11,3 +11,4 @@
   - CodeQL学习提上日程
 ## 2rd week
  - 翻译了一篇GHSlab的文章，初步学习用codeql模式化的描述漏洞，笔记已上传
+ - plaidctf2020 sandybox working
