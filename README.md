@@ -12,3 +12,5 @@
 ## 2rd week
  - 翻译了一篇GHSlab的文章，初步学习用codeql模式化的描述漏洞，笔记已上传
  - plaidctf2020 sandybox working
+   - 沙箱的逻辑已经逆完，但不知道怎么bypass
+   - 但是10byte的shellcode有想法，做过类似的题，利用寄存器存了shellcode的地址，通过xchg指令把那个地址移到rdi做参数，然后调用read就可以读更多的shellcode了
