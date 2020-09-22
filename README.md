@@ -16,3 +16,8 @@
    - 但是10byte的shellcode有想法，做过类似的题，利用寄存器存了shellcode的地址，通过xchg指令把那个地址移到rdi做参数，然后调用read就可以读更多的shellcode了
  - sandybox看了wp写完了
  - 看了一点深入理解linux内核
+ - 看了一个奇安信员工关于虚拟化漏洞挖掘的培训视频，总结一下虚拟化攻击面:
+    - 加强guest os使用体验的程序，比如:VMware的vmtools
+    - 虚拟化的各种设备驱动，比如sd卡，usb设备等
+    - 虚拟化的网络协议栈，比如dhcp协议等
+    - 总结一下就是要找guest和host可以进行交互的位置去挖掘，这样才可能造成逃逸
