@@ -14,3 +14,5 @@
  - plaidctf2020 sandybox working
    - 沙箱的逻辑已经逆完，但不知道怎么bypass
    - 但是10byte的shellcode有想法，做过类似的题，利用寄存器存了shellcode的地址，通过xchg指令把那个地址移到rdi做参数，然后调用read就可以读更多的shellcode了
+ - sandybox看了wp写完了
+ - 看了一点深入理解linux内核
