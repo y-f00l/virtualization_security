@@ -21,3 +21,5 @@
     - 虚拟化的各种设备驱动，比如sd卡，usb设备等
     - 虚拟化的网络协议栈，比如dhcp协议等
     - 总结一下就是要找guest和host可以进行交互的位置去挖掘，这样才可能造成逃逸
+ - 看了chatin的f1yyy关于EsXi逃逸的一个议题，youtube地址:https://www.youtube.com/watch?v=XHDwsvywX50&t=2127s
+ - 看了通过kvm实现一个简单内核，准备跟着写一下:https://david942j.blogspot.com/2018/10/note-learning-kvm-implement-your-own.html
